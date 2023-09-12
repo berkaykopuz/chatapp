@@ -36,7 +36,7 @@ function sendMessage(event) {
 
 	if (messageContent && stompClient) {
 		var Message = {
-			type : 'chat',
+			type : 'CHAT',
 			content : document.querySelector('#Message').value,
 			author : name
 		};

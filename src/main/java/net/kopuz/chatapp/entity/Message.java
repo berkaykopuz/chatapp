@@ -8,8 +8,17 @@ public class Message {
     public Message() {
     }
 
+
     public String getAuthor() {
         return author;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getContent() {
+        return content;
     }
 
     public void setType(String type) {
@@ -23,4 +32,5 @@ public class Message {
     public void setAuthor(String author) {
         this.author = author;
     }
+
 }

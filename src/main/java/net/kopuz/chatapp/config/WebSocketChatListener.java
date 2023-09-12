@@ -13,7 +13,6 @@ import java.util.Optional;
 
 @Component
 public class WebSocketChatListener {
-    @Autowired
     private final SimpMessageSendingOperations messageTemplate;
 
     public WebSocketChatListener(SimpMessageSendingOperations messageTemplate) {
